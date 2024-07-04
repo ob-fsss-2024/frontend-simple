@@ -45,8 +45,8 @@ If you want to use this project as a basis for your own FE application, you shou
 - Advanced tab:
   - Region: West Europe
 - Click Review + create
-- Go back to https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2FStaticSites and wait for the new app to appear
-- Click on the new app and the "Manage deployment token", copy the value
+- Go back to https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Web%2FStaticSites and wait for the new app to appear (~1 minute)
+- Click on the new app, open the tab "Manage deployment token" and copy the value
 - In the GitHub project set the following:
   - Settings -> Secrets and variables -> Actions -> New repository secret
     - Name: AZURE_TOKEN
