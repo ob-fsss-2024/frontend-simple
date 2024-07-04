@@ -51,13 +51,13 @@ If you want to use this project as a basis for your own FE application, you shou
   - Settings -> Secrets and variables -> Actions -> New repository secret
     - Name: AZURE_TOKEN
     - Value: [paste token value]
-6. In the GitHub project go to the Actions tab:
+3. In the GitHub project go to the Actions tab:
   - Click on "I understand my workflows, go ahead and enable them"
-  - Go to the action "Azure Static Web Apps CI/CD" in the sidebar and
+  - Go to the action "Azure Static Web Apps CI/CD" in the sidebar
   - Click "Run workflow"
   - Open the build status by clicking on the "Azure Static Web Apps CI/CD" entry that appeared below
  ![image](https://github.com/ob-fsss-2024/frontend/assets/36840705/c69c822f-8f3e-448d-803d-1d691e63c819)
-7. Open "Build and Deploy job" and wait for the "Build and Deploy" phase to complete
-8. Look for this in the output logs: `Visit your site at: https://[some-unique-url].azurestaticapps.net`
-9. Your app should be running on the specified URL, connected to the **production backend**
+4. Open "Build and Deploy job" and wait for the "Build and Deploy" phase to complete
+5. Look for this in the output logs: `Visit your site at: https://[some-unique-url].azurestaticapps.net`
+6. Your app should be running on the specified URL, connected to the **production backend**
 
